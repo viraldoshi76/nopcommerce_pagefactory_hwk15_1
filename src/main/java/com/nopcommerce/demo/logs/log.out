@@ -1,0 +1,40 @@
+2021-06-22 21:06:210 INFO  BasePage :32 - Launching Chrome Browser
+2021-06-22 21:06:679 INFO  HomePage :31 - Clicking on element [[ChromeDriver: chrome on WINDOWS (66cd1528c41c354cd95bdd68b2d2134a)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]
+2021-06-22 21:06:707 INFO  ComputersPage :24 - Navigate to computer page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (66cd1528c41c354cd95bdd68b2d2134a)] -> xpath: //h1[contains(text(),'Computers')]]
+2021-06-22 21:06:272 INFO  BasePage :32 - Launching Chrome Browser
+2021-06-22 21:06:828 INFO  HomePage :31 - Clicking on element [[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]
+2021-06-22 21:06:480 INFO  ComputersPage :31 - Click on desktop option Proxy element for: DefaultElementLocator 'By.xpath: //h2[@class='title']/a[@href='/desktops']'
+2021-06-22 21:06:633 INFO  DesktopsPage :47 - Selecting filter [[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: //select[@id='products-orderby']]
+2021-06-22 21:06:730 INFO  DesktopsPage :55 - Click on add to cart button [[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: (//button[@class='button-2 product-box-add-to-cart-button'])[1]]
+2021-06-22 21:06:773 INFO  BuildYourOwnComputerPage :44 - Getting build computer text[[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: //h1[contains(text(),'Build your own computer')]]
+2021-06-22 21:06:970 INFO  BuildYourOwnComputerPage :51 - Select processor option [[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: //dd[@id='product_attribute_input_1']/select[@id='product_attribute_1']]
+2021-06-22 21:06:125 INFO  BuildYourOwnComputerPage :57 - Select RAM option [[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: //dd[@id='product_attribute_input_2']/select[@id='product_attribute_2']]
+2021-06-22 21:06:239 INFO  BuildYourOwnComputerPage :63 - Click on radio button [[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: //ul[@class='option-list']/li[@data-attr-value='7']/input[@id='product_attribute_3_7']]
+2021-06-22 21:06:318 INFO  BuildYourOwnComputerPage :69 - Click on radio button [[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: //li[@data-attr-value='9']/input[@id='product_attribute_4_9']]
+2021-06-22 21:06:421 INFO  BuildYourOwnComputerPage :75 - Click on check box [[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: //input[@id='product_attribute_5_12']]
+2021-06-22 21:06:468 INFO  BuildYourOwnComputerPage :80 - Getting total price from element [[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: //div[@class='product-price']/span[@id='price-value-1']]
+2021-06-22 21:06:573 INFO  BuildYourOwnComputerPage :87 - Click on add to cart button [[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: //div[@class='add-to-cart-panel']/button[@id='add-to-cart-button-1']]
+2021-06-22 21:06:616 INFO  BuildYourOwnComputerPage :92 - Getting green bar message [[ChromeDriver: chrome on WINDOWS (2685a2644f9944804d54b706639e6e3d)] -> xpath: //body/div[@id='bar-notification']/div[1]/p[1]]
+2021-06-22 21:06:329 INFO  BasePage :32 - Launching Chrome Browser
+2021-06-22 21:06:100 INFO  HomePage :31 - Clicking on element [[ChromeDriver: chrome on WINDOWS (d1c47cd95054a700ddb40b38c8bd8145)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]
+2021-06-22 21:06:318 INFO  ComputersPage :31 - Click on desktop option Proxy element for: DefaultElementLocator 'By.xpath: //h2[@class='title']/a[@href='/desktops']'
+2021-06-22 21:06:962 INFO  BasePage :32 - Launching Chrome Browser
+2021-06-22 21:06:458 INFO  HomePage :31 - Clicking on element [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]
+2021-06-22 21:06:88 INFO  ComputersPage :31 - Click on desktop option Proxy element for: DefaultElementLocator 'By.xpath: //h2[@class='title']/a[@href='/desktops']'
+2021-06-22 21:06:265 INFO  DesktopsPage :47 - Selecting filter [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //select[@id='products-orderby']]
+2021-06-22 21:06:349 INFO  DesktopsPage :55 - Click on add to cart button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: (//button[@class='button-2 product-box-add-to-cart-button'])[1]]
+2021-06-22 21:06:618 INFO  BuildYourOwnComputerPage :44 - Getting build computer text[[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //h1[contains(text(),'Build your own computer')]]
+2021-06-22 21:06:814 INFO  BuildYourOwnComputerPage :51 - Select processor option [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //dd[@id='product_attribute_input_1']/select[@id='product_attribute_1']]
+2021-06-22 21:06:954 INFO  BuildYourOwnComputerPage :57 - Select RAM option [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //dd[@id='product_attribute_input_2']/select[@id='product_attribute_2']]
+2021-06-22 21:06:75 INFO  BuildYourOwnComputerPage :63 - Click on radio button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //ul[@class='option-list']/li[@data-attr-value='7']/input[@id='product_attribute_3_7']]
+2021-06-22 21:06:155 INFO  BuildYourOwnComputerPage :69 - Click on radio button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //li[@data-attr-value='9']/input[@id='product_attribute_4_9']]
+2021-06-22 21:06:247 INFO  BuildYourOwnComputerPage :75 - Click on check box [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //input[@id='product_attribute_5_12']]
+2021-06-22 21:06:290 INFO  BuildYourOwnComputerPage :80 - Getting total price from element [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //div[@class='product-price']/span[@id='price-value-1']]
+2021-06-22 21:06:410 INFO  BuildYourOwnComputerPage :87 - Click on add to cart button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //div[@class='add-to-cart-panel']/button[@id='add-to-cart-button-1']]
+2021-06-22 21:06:453 INFO  BuildYourOwnComputerPage :92 - Getting green bar message [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //body/div[@id='bar-notification']/div[1]/p[1]]
+2021-06-22 21:06:146 INFO  BasePage :32 - Launching Chrome Browser
+2021-06-22 21:06:952 INFO  HomePage :31 - Clicking on element [[ChromeDriver: chrome on WINDOWS (61da5947e8454cbd1ffc9c31ccd966f0)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]
+2021-06-22 21:06:118 INFO  ComputersPage :31 - Click on desktop option Proxy element for: DefaultElementLocator 'By.xpath: //h2[@class='title']/a[@href='/desktops']'
+2021-06-22 22:06:648 INFO  BasePage :32 - Launching Chrome Browser
+2021-06-22 22:06:60 INFO  HomePage :31 - Clicking on element [[ChromeDriver: chrome on WINDOWS (46af37864b4603e904eb9bd774e14bd6)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]
+2021-06-22 22:06:362 INFO  ComputersPage :31 - Click on desktop option Proxy element for: DefaultElementLocator 'By.xpath: //h2[@class='title']/a[@href='/desktops']'

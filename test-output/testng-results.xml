@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on element [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on desktop option [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //h2[@class='title']/a[@href='/desktops']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Selecting filter [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //select[@id='products-orderby']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on add to cart button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: (//button[@class='button-2 product-box-add-to-cart-button'])[1]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting build computer text [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //h1[contains(text(),'Build your own computer')]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select processor option [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //dd[@id='product_attribute_input_1']/select[@id='product_attribute_1']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select RAM option [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //dd[@id='product_attribute_input_2']/select[@id='product_attribute_2']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on radio button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //ul[@class='option-list']/li[@data-attr-value='7']/input[@id='product_attribute_3_7']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on radio button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //li[@data-attr-value='9']/input[@id='product_attribute_4_9']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on check box [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //input[@id='product_attribute_5_12']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting total price from element [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //div[@class='product-price']/span[@id='price-value-1']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on add to cart button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //div[@class='add-to-cart-panel']/button[@id='add-to-cart-button-1']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting green bar message [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //body/div[@id='bar-notification']/div[1]/p[1]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element [[ChromeDriver: chrome on WINDOWS (61da5947e8454cbd1ffc9c31ccd966f0)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on desktop option [[ChromeDriver: chrome on WINDOWS (61da5947e8454cbd1ffc9c31ccd966f0)] -> xpath: //h2[@class='title']/a[@href='/desktops']]<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="74030" started-at="2021-06-22T20:56:28Z" finished-at="2021-06-22T20:57:42Z">
+    <groups>
+      <group name="regression">
+        <method signature="TestSuite.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.nopcommerce.demo.computers.TestSuite"/>
+        <method signature="TestSuite.verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="verifyProductArrangeInAlphabeticalOrder" class="com.nopcommerce.demo.computers.TestSuite"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestSuite.verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="verifyProductArrangeInAlphabeticalOrder" class="com.nopcommerce.demo.computers.TestSuite"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestSuite.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.nopcommerce.demo.computers.TestSuite"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression Test" duration-ms="74030" started-at="2021-06-22T20:56:28Z" finished-at="2021-06-22T20:57:42Z">
+      <class name="com.nopcommerce.demo.computers.TestSuite">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="openBrowser" is-config="true" duration-ms="3357" started-at="2021-06-22T20:56:28Z" finished-at="2021-06-22T20:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="setUP" is-config="true" duration-ms="52" started-at="2021-06-22T20:56:32Z" finished-at="2021-06-22T20:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="verifyProductAddedToShoppingCartSuccessFully" duration-ms="33110" started-at="2021-06-22T20:56:32Z" finished-at="2021-06-22T20:57:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on element [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on desktop option [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //h2[@class='title']/a[@href='/desktops']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Selecting filter [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //select[@id='products-orderby']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on add to cart button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: (//button[@class='button-2 product-box-add-to-cart-button'])[1]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting build computer text [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //h1[contains(text(),'Build your own computer')]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select processor option [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //dd[@id='product_attribute_input_1']/select[@id='product_attribute_1']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select RAM option [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //dd[@id='product_attribute_input_2']/select[@id='product_attribute_2']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on radio button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //ul[@class='option-list']/li[@data-attr-value='7']/input[@id='product_attribute_3_7']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on radio button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //li[@data-attr-value='9']/input[@id='product_attribute_4_9']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on check box [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //input[@id='product_attribute_5_12']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting total price from element [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //div[@class='product-price']/span[@id='price-value-1']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on add to cart button [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //div[@class='add-to-cart-panel']/button[@id='add-to-cart-button-1']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting green bar message [[ChromeDriver: chrome on WINDOWS (4903c1e970bd47ad2bb98d00982cc379)] -> xpath: //body/div[@id='bar-notification']/div[1]/p[1]]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToShoppingCartSuccessFully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="tearDown" is-config="true" duration-ms="667" started-at="2021-06-22T20:57:05Z" finished-at="2021-06-22T20:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="openBrowser" is-config="true" duration-ms="2685" started-at="2021-06-22T20:57:06Z" finished-at="2021-06-22T20:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="setUP" is-config="true" duration-ms="13" started-at="2021-06-22T20:57:08Z" finished-at="2021-06-22T20:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="verifyProductArrangeInAlphabeticalOrder" duration-ms="33458" started-at="2021-06-22T20:57:08Z" finished-at="2021-06-22T20:57:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on element [[ChromeDriver: chrome on WINDOWS (61da5947e8454cbd1ffc9c31ccd966f0)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on desktop option [[ChromeDriver: chrome on WINDOWS (61da5947e8454cbd1ffc9c31ccd966f0)] -> xpath: //h2[@class='title']/a[@href='/desktops']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphabeticalOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@5123a213]" name="tearDown" is-config="true" duration-ms="663" started-at="2021-06-22T20:57:42Z" finished-at="2021-06-22T20:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.computers.TestSuite -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
