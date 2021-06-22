@@ -38,3 +38,6 @@
 2021-06-22 22:06:648 INFO  BasePage :32 - Launching Chrome Browser
 2021-06-22 22:06:60 INFO  HomePage :31 - Clicking on element [[ChromeDriver: chrome on WINDOWS (46af37864b4603e904eb9bd774e14bd6)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]
 2021-06-22 22:06:362 INFO  ComputersPage :31 - Click on desktop option Proxy element for: DefaultElementLocator 'By.xpath: //h2[@class='title']/a[@href='/desktops']'
+2021-06-23 00:06:821 INFO  BasePage :32 - Launching Chrome Browser
+2021-06-23 00:06:407 INFO  HomePage :31 - Clicking on element [[ChromeDriver: chrome on WINDOWS (7dc7a07eaee9996bbeb6220f93a28bf0)] -> xpath: //div[@class='header-menu']/ul[1]/li/a]
+2021-06-23 00:06:932 INFO  ComputersPage :31 - Click on desktop option Proxy element for: DefaultElementLocator 'By.xpath: //h2[@class='title']/a[@href='/desktops']'
